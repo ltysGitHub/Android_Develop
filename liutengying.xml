@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dachuang.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/main_kebiao"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="课表"
+            android:textSize="24sp" />
+        <LinearLayout 
+        android:layout_height="fill_parent"
+    	android:layout_width="2px"
+    	android:background="#d0d0d0"
+        />
+
+        <TextView
+            android:id="@+id/main_xiaoyuan"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="校园"
+            android:textSize="24sp" />
+
+         <LinearLayout 
+        android:layout_height="fill_parent"
+    	android:layout_width="2px"
+    	android:background="#d0d0d0"
+        />
+         
+        <TextView
+            android:id="@+id/main_tongzhi"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="通知"
+            android:textSize="24sp" />
+
+         <LinearLayout 
+        android:layout_height="fill_parent"
+    	android:layout_width="2px"
+    	android:background="#d0d0d0"
+        />
+         
+        <TextView
+            android:id="@+id/main_biji"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="笔记"
+            android:textSize="24sp" />
+    </LinearLayout>
+ 	
+ 	<LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="2px"
+    	android:background="#d0d0d0"
+        />
+ 	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1.5"
+        android:orientation="horizontal" 
+        >
+        
+        <TextView
+            android:id="@+id/main_zhoushu"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            
+            android:text="周数"
+            android:textSize="16sp" />
+         
+        <LinearLayout 
+        android:layout_height="fill_parent"
+    	android:layout_width="2px"
+    	android:background="#d0d0d0"
+        />
+         
+         <TextView
+            android:id="@+id/main_xingqi"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:text="星期"
+            android:gravity="center"
+            android:textSize="24sp" />
+        
+        <LinearLayout 
+        android:layout_height="fill_parent"
+    	android:layout_width="2px"
+    	android:background="#d0d0d0"
+        />
+          
+         <TextView
+            android:id="@+id/main_tianke"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="+"
+            android:textSize="24sp" />
+        
+    </LinearLayout>
+ 	
+ 	<LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="2px"
+    	android:background="#d0d0d0"
+        />
+ 	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="16"
+        android:orientation="horizontal" >
+         <TextView
+            android:id="@+id/main_shijian"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10sp"
+            android:text="时间"
+            android:textSize="16sp" />
+        
+        <LinearLayout 
+        android:layout_height="fill_parent"
+    	android:layout_width="2px"
+    	android:background="#d0d0d0"
+        />
+         
+        <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:orientation="vertical" >
+             
+         </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
